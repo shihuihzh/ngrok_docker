@@ -1,0 +1,9 @@
+ngrok:
+    image: zhanhao/ngrok
+    ports:
+        - "5000:5000"
+        - "5080:5080"
+        - "12222:12222"
+        - "52222:52222"
+    restart: always
+    
